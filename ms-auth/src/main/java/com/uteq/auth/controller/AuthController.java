@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/auth")
+// 🌟 ¡Añade esta línea! 🌟
+@CrossOrigin(origins = "http://35.222.192.164", allowedMethods = {"GET", "POST", "PUT", "DELETE", "OPTIONS"})
 @RequiredArgsConstructor
 public class AuthController {
 
