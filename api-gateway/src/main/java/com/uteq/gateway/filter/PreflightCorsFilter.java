@@ -41,6 +41,7 @@ public class PreflightCorsFilter implements GlobalFilter {
             || origin.startsWith("http://localhost:5175")
             || origin.startsWith("http://127.0.0.1:5173")
             || origin.startsWith("http://127.0.0.1:5174")
-            || origin.startsWith("http://127.0.0.1:5175");
+            || origin.startsWith("http://127.0.0.1:5175")
+            || origin.startsWith("http://35.222.192.164");
     }
 }
